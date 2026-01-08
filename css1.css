@@ -10,20 +10,48 @@ body {
   z-index: 1;
   top: 0;
   left: 0;
+  /* border-right: 2px solid blue; */
+  border-right: 2px solid rgba(0, 0, 255, 0.447);
   background-color: white;
   overflow-x: hidden;
 }
 
 .sidenav a {
-  color: white;
-  padding: 16px;
+  /* color: blue; */
+  /* color:rgba(0, 0, 255, 0.629); */
+  color:black;
+  padding: 14px;
   text-decoration: none;
   display: block;
+  font-size: 18px;
+}
+
+.sidenavb {
+  /* color: blue; */
+  /* color:rgba(0, 0, 255, 0.629); */
+  height: 50%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 150;
+  left: 0;
+  /* border-right: 2px solid blue; */
+  border-right: 2px solid rgba(0, 0, 255, 0.447);
+  background-color: white;
+  overflow-x: hidden;
+}
+
+.sidenavb a{
+  color:black;
+  padding: 14px;
+  text-decoration: none;
+  display: block;
+  font-size: 18px;
 }
 
 .sidenav a:hover {
-  background-color: white;
-  color: blue;
+  background-color: rgba(0, 0, 255, 0.447);
+  color: white;
 }
 
 .content {
